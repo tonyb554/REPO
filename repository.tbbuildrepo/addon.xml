@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.tbbuildrepo" name=".[COLOR yellow]TB[/COLOR][COLOR white] BUILD[/COLOR] REPO" version="1.0.1" provider-name="Dragon">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name=".[COLOR yellow]TB[/COLOR][COLOR white] BUILD[/COLOR] REPO">
+		<info compressed="false">http://tbbuild.co.uk/tbbuild/zips/addons.xml</info>
+		<checksum>http://tbbuild.co.uk/tbbuild/zips/addons.xml.md5</checksum>
+		<datadir zip="true">http://tbbuild.co.uk/tbbuild/zips</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>TB BUILD</summary>
+            <description>REPO</description>
+            <platform>all</platform>
+    </extension>
+</addon>
